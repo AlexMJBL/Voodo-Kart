@@ -1,0 +1,159 @@
+html{
+  font-size:16px;
+  box-sizing: border-box;
+  display: block;
+  background-color:f8f8f9;
+}
+header{
+  height:120px;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+  background-color:f8f8f9;
+}
+nav{
+  display:flex;
+  height:100%;
+}
+h1{
+  padding:10 0 0 15px;
+  width: 40%;
+  font-size: 250%;
+  font-family: sans-serif;
+  
+}
+
+.list_nav{
+  font-size:175%;
+  display:flex;
+  justify-content:space-evenly;
+  width: 50%;
+  padding-top:20;
+  list-style-type: none;
+}
+a{
+  text-decoration:none;
+}
+a:visited{
+  color:black;
+}
+a:link{
+  color:black;
+}
+a:hover{
+  color:white;
+  background-color:black;
+}
+.container{
+margin:150px auto 0;
+width:70%;
+}
+.In_Action{
+  padding-bottom: 80px;
+}
+.In_Action h2{
+  font-size:190%;
+  text-align:center;
+  padding-top: 30px;
+}
+iframe{
+  width: 800px;
+  height:450px;
+  
+    display: block;
+    margin: 0 auto;
+}
+.features{
+  padding-bottom:50px;
+}
+.feature{
+  display:flex;
+  padding: 10 0;
+}
+img{
+  height:100px;
+  width: 120px;
+  padding: 28 30 0 30;
+}
+
+h2{
+  font-size:160%;
+}
+p{
+  font-size: 20px;
+  }
+.img_flex, .desc_flex{
+  display:flex;
+  justify-content:space-around;
+}
+.kart_img, .desc_container{
+  width: 28%;
+  height: 300px  
+}
+.desc_container {
+
+  border:1px solid black;
+  margin-top: 40px; 
+}
+.desc_container h2{
+  background-color:black;
+  color:white;
+  padding: 15 0;
+  margin-top:0;
+  font-size:190%;
+}
+.desc_container p{
+  font-size: 160%;
+  font-weight:bold;
+}
+.desc_container h2, .desc_container p{
+  text-align:center;
+}
+.desc_container ul{
+font-size:130%;
+line-height:1.5;
+margin-left:20px;
+}
+form{
+  text-align:center;
+  padding: 50px 0;
+  
+}
+input{
+  display:block;
+  margin:auto;
+  height:30px;
+}
+
+.email{
+  width:40%;
+  font-size:110%px;
+  }
+.submit{
+  width:25%;
+  margin-top: 20px;
+  background-color:black;
+  color:white;
+  font-size:110%px;
+}
+
+@media only screen and (max-width: 1200px){
+  html{
+  font-size:10px;
+}
+iframe{
+  width: 600px;
+  height:352px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  html{
+  font-size:7px;
+}
+iframe{
+  width: 300px;
+  height:176px;
+  }
+}
